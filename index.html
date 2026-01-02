@@ -10,13 +10,43 @@
 
     <title>Mike Dvorsack</title>
 
-    <link rel="shortcut icon" href="images/logo2.png" type="image/png">
+    <link rel="shortcut icon" href="images/logo.png" type="image/png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            
+            <button class="navbar-toggler mx-auto" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="navbar-nav mx-auto" style="align-items: center;">
+                    <li class="nav-item">
+                        <a class="nav-link" href="issues.html">ISSUES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">ABOUT MIKE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link extra-bold" href="https://swipesimple.com/links/lnk_80362b62da118c4bafc0eba9e5b8924d"
+                            target="_blank">DONATE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.facebook.com/MikeDForGA/" target="_blank"
+                            style="font-size: 1.35rem;">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
 
 
     <!-- ✅ Desktop Layout (≥768px) -->
@@ -41,38 +71,28 @@
                     style="width: 50%; ">
 
                     <div class="row h-100">
-                        <div class="col-6 h-50 d-flex p-0">
+                        <div class="col-12 h-50 d-flex p-0">
                             <div class="img-box w-100">
-                                <img src="images/1.jpg" alt="Img1" class="img-fluid  w-100 h-100 object-fit-cover">
+                                <img src="images/home-1.png" alt="Img1" class="img-fluid  w-100 h-100 object-fit-cover" style="object-position: top;">
                             </div>
                         </div>
-                        <div class="col-6 h-50 d-flex p-0">
-                            <div class="img-box w-100">
-                                <img src="images/2.jpg" alt="Img2" class="img-fluid  w-100 h-100 object-fit-cover">
-                            </div>
-                        </div>
+                        
 
                         <div class="col-6 h-50 p-0">
                             <div class="campaign-buttons">
-                                <div>
-                                    <a target="_blank" href="https://www.facebook.com/MikeDForGA/" class="btn btn-dark">
-                                        <i class="fab fa-facebook"></i>
-                                    </a>
-                                    <span>Follow Mike on Facebook</span>
-                                </div>
                                 <div>
                                     <a target="_blank"
                                         href="https://swipesimple.com/links/lnk_80362b62da118c4bafc0eba9e5b8924d"
                                         class="btn btn-dark">
                                         <i class="fas fa-gift"></i>
                                     </a>
-                                    <span>Donate Today!</span>
+                                    <span>Donate <br>Today!</span>
                                 </div>
                             </div>
 
                         </div>
                         <div class="col-6 h-50 p-0">
-                            <img src="images/33.jpg" alt="Img3" class="img-fluid w-100 h-100 object-fit-cover">
+                            <img src="images/home-2.png" alt="Img3" class="img-fluid w-100 h-100 object-fit-cover" style="    object-position: top;">
                         </div>
                     </div>
 
@@ -84,14 +104,14 @@
 
         </div>
     </div>
-    </div>
+    
 
     <!-- ✅ Mobile Layout (<768px) -->
     <div class="section-campaign mobile-campaign d-block d-md-none text-white text-center">
         <div class="">
             <img src="images/logo.png" alt="Logo" style="max-width: 90%;" class="py-4">
-            <img src="images/1.jpg" alt="Img1">
-            <img src="images/2.jpg" alt="Img2">
+            <img src="images/home-2-mobile.png" alt="Img1">
+            
 
             <div class="campaign-text mx-auto p-4">
                 <h2 class="mb-3">“I’m not your typical candidate for public office because <strong><em>I’m not
@@ -100,21 +120,16 @@
                     us stronger.”</h3>
             </div>
 
-            <img src="images/3.jpg" alt="Img3">
+            <img src="images/home-2.png" alt="Img3">
 
             <div class="campaign-buttons py-5">
-                <div>
-                    <a target="_blank" href="https://www.facebook.com/MikeDForGA/" class="btn btn-dark">
-                        <i class="fab fa-facebook"></i>
-                    </a>
-                    <span>Follow Mike on Facebook</span>
-                </div>
+                
                 <div>
                     <a target="_blank" href="https://swipesimple.com/links/lnk_80362b62da118c4bafc0eba9e5b8924d"
                         class="btn btn-dark">
                         <i class="fas fa-gift"></i>
                     </a>
-                    <span>Donate Today!</span>
+                    <span>Donate <br>Today!</span>
                 </div>
             </div>
         </div>
@@ -124,7 +139,7 @@
     <!-- form section -->
     <div>
         <div class="container py-5">
-            <h2 class="form-heading mb-0">Get Connected!</h2>
+            <h2 class="form-heading mb-0">Get in touch!</h2>
             <img src="images/stars.png" alt="stars" style="width: 70px; margin: auto; display: block;" class="mb-5">
             <div class="row">
                 <div class="col-md-9 col-sm-11 mx-auto">
@@ -173,94 +188,25 @@
         </div>
     </div>
 
-    <!-- star section -->
-    <div class="star-section" style="background-color: #EDEDED;">
-        <div class="container pt-5 pb-2">
-            <div class="row">
 
-                <div class="col-12 text-center">
-                    <h2 class="form-heading mb-0">Issues</h2>
-                    <img src="images/stars.png" alt="stars" style="width: 70px; margin: auto; display: block;"
-                        class="mb-5">
-                </div>
-
-                <div class="col-sm-5 text-center mb-5 mx-auto">
-                    <img src="images/icon1.png" alt="icon" width="50px;" class="mb-2">
-                    <h2 class="text-blue my-3">Public Safety</h2>
-                    <p class="issues-text">Every day we hear about serious crime in or near our neighborhoods or where
-                        we work. We must give our full support to our law enforcement and first responders at every
-                        level. There must be interagency cooperation. Most importantly, when criminals are arrested and
-                        convicted, they must be punished.</p>
-                </div>
-
-
-                <div class="col-sm-5 text-center mb-5 mx-auto">
-                    <img src="images/icon2.png" alt="icon" width="50px;" class="mb-2">
-                    <h2 class="text-blue my-3">Fiscal Responsibility</h2>
-                    <p class="issues-text">We must look at each tax dollar as if it was earned by the hardest working
-                        people in our state - the roofers, the construction workers, people who do the hard jobs and ask
-                        “Is this how they would want their tax dollars spent?”</p>
-                </div>
-
-
-                <div class="col-sm-5 text-center mb-5 mx-auto">
-                    <img src="images/icon3.png" alt="icon" width="50px;" class="mb-2">
-                    <h2 class="text-blue my-3">Strong Healthcare</h2>
-                    <p class="issues-text">Healthcare decisions must be made not by insurance companies and hospitals,
-                        but by the patient. We need complete price transparency. And we must end a certificate of need
-                        program that has given us a market that is divided up by big hospital systems that make it hard
-                        for small doctor practices to compete and left large parts of the state without access to
-                        emergency services.</p>
-                </div>
-
-
-                <div class="col-sm-5 text-center mb-5 mx-auto">
-                    <img src="images/icon4.png" alt="icon" width="50px;" class="mb-2">
-                    <h2 class="text-blue my-3">Education</h2>
-                    <p class="issues-text">In our district we have access to some of the finest K-12 and higher
-                        education institutions anywhere. We must provide greater access to school choice for our K-12
-                        students. We must also insist on accountability from our higher education system where the cost
-                        of tuition has increased dramatically.</p>
-                </div>
-
-
-
-            </div>
-        </div>
+    <div class="py-4 text-center pre-footer">
+        <h1><span class="fw-bolder">Republican primary May 19</span> <span class="fw-medium">— Early voting April 27 – May 15</span></h1>
     </div>
 
-
-    <section class="about" style="background-color: #001A57;">
-        <div class="container ">
-            <div class="row justify-content-around align-items-center">
-                <div class="col-lg-3 col-md-4">
-                    <img src="images/mike.jpg" alt="mike" class="w-100">
-                </div>
-                <div class="col-lg-8 col-md-8 text-white text-md-start text-center py-5 py-md-0">
-                    <h2 class="mb-3" style="font-size: 2.5rem;">About Mike</h2>
-                    <p style="font-weight: 300;" class="mb-0">Mike Dvorscak is a North Fulton native with a passion for our community. Professionally, Mike is a commercial real estate broker with over four decades of experience. In 1985, he joined The William B. Hare Company, now A D Commercial Real Estate, a commercial real estate broker, to act as corporate real estate representative, where he rose to Vice President and then Principal, Owner and Broker. Mike has been responsible for over $200 million in sales and leases in the past five years.
-<br><br>Mike has volunteered his time to a number of local charitable and political organizations, including service as Chairman of the Ashford Dunwoody YMCA and the Fulton County Republican Party. Mike was a member of the Steering Committee for Safe Harbor Amendment to provide funding for victims of domestic minor sex trafficking in Georgia in 2016. He and his wife co-chaired the annual National Kidney Foundation of Georgia Gala for 2000 and 2001. A literacy advocate, Mike was fundraising chairman of the Roswell East Rotary, helping obtain corporate sponsors for their annual event, “The Race for Literacy.” A proud Georgia Tech alumnus, Mike has been a longtime member of the Letterwinners Club at his alma mater.
-<br><br>Mike and his wife, Camille Nichols, are members of Perimeter Church in Johns Creek, where he is active in the worship and arts ministry.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <footer style="background-color: #fff;">
+    <footer>
         <div class="container text-center py-4">
             <a href="index.html">
-                <img src="images/logo2.png" alt="Logo" style="width: 150px;">
+                <img src="images/logo.png" alt="Logo" style="width: 150px;">
             </a>
 
 
             <div class="my-2">
                 <a href="https://www.facebook.com/MikeDForGA/" target="_blank"
-                    class="fb-link text-blue text-decoration-none">
+                    class="fb-link text-white text-decoration-none me-2">
                     <i class="fa-brands fa-facebook"></i>
                 </a>
 
-                <a class="text-blue text-decoration-none" href="https://swipesimple.com/links/lnk_80362b62da118c4bafc0eba9e5b8924d"
+                <a class="text-white text-decoration-none fw-bolder" href="https://swipesimple.com/links/lnk_80362b62da118c4bafc0eba9e5b8924d"
                     target="_blank">DONATE</a>
 
             </div>
@@ -269,7 +215,7 @@
 
 
 
-            <p class="mb-0 text-muted opacity-75">Paid for by Friends of Mike D</p>
+            <p class="mb-0 text-white fw-light">Paid for by Friends of Mike D</p>
 
 
         </div>

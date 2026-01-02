@@ -30,7 +30,41 @@ h5 {
     font-family: "Poltawski Nowy", serif;
 }
 
+img{
+    max-width: 100%;
+}
 
+nav, footer {
+    background-color: #1C3369;
+}
+
+.logo{
+    width: 130px;
+}
+
+.nav-link{
+    color: #fff;
+    font-weight: 400;
+}
+
+.nav-link.extra-bold{
+    font-weight: 900;
+}
+
+.navbar-toggler{
+    box-shadow: none !important;
+    border: none !important;
+}
+
+.banner{
+    background-color: #001A57;
+    color: #fff;
+    text-align: center;
+}
+
+.banner-heading{
+    font-size: 3.5rem;
+}
 
 .section-campaign {
     background-color: #001A57;
@@ -77,7 +111,8 @@ h5 {
 }
 
 .campaign-buttons span {
-    font-size: 1rem;
+    font-size: 2.75rem;
+    line-height: 1.1;
 }
 
 .campaign-buttons a:hover {
@@ -204,6 +239,14 @@ input.form-check-input[type="checkbox"]:checked::before {
     font-size: 1.25rem;
 }
 
+.pre-footer{
+    background-color: #001A57;
+    color: #fff;
+}
+
+.pre-footer h1{
+    font-family: "Outfit", sans-serif;
+}
 
 @media (max-width: 992px) {}
 
